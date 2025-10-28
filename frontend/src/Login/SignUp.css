@@ -1,0 +1,194 @@
+.main-section{
+    display: flex;
+    margin :0;
+     width: 100vw; 
+     padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.log-signup-div{
+    width: 450px;          
+    max-width: 450px;
+    height: 620px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 15px;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease;
+    
+}
+
+@media (max-width: 400px) {
+    .log-div {
+        max-width: 95vw;
+        padding: 1rem 0.5rem;
+    }
+
+}
+
+.log-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.log-div h2{
+    margin: 0;
+    color: #333;
+}
+
+.heading{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heading h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    /* Add some spacing between the two lines */
+    text-transform: capitalize;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+}
+
+.heading p{
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    padding-left: 2px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    background-color: #fafafa;
+}
+
+.email-input, .password-input, .name-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.sign-in{
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in:hover{
+    background-color: #45a049;
+}
+
+.sign-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.text-div p {
+    margin: 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.text-div a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.text-div a:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
